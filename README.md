@@ -285,7 +285,7 @@ Altere o backend para utilizar variáveis de ambiente para contrololar os seguin
 
    1. A porta que a API escutará, essa variável deve ter, nescessáriamente, o nome PORT.
 
-   2. O modo "upsideDown". Essa variável espera um valor boleano e deverá se chamar UPSIDEDOWM_MODE. Lembre-se que as variáveis de ambinte são `strings`.
+   2. O modo "upsideDown". Essa variável espera um valor boleano e deverá se chamar UPSIDEDOWN_MODE. Lembre-se que as variáveis de ambinte são `strings`.
 
    O que será testado:
    - Se existe a variável de ambiente PORT.
