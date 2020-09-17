@@ -378,7 +378,7 @@ O que será testado:
 
 ### Frontend
 
-#### 8 - Variáveis de Ambiente
+#### 7 - Variáveis de Ambiente
 
 Altere o frontend para utilizar variáveis de ambiente para controlar as **URLs** e **Timeouts** de comunicação com a API.
 
@@ -393,7 +393,7 @@ O que será testado:
 
 **Importante**: Para esse projeto, as variáveis de ambiente devem ser definidas em um arquivo .env e o arquivo deve ser enviando no seu PR(Pull Request). ISSO NÃO É UMA PRÁTICA DE MERCADO, o arquivo .env deve ser sempre incluido do .gitignore pois contém informações sensíveis, aqui será enviado apenas por motivo de avaliação.
 
-#### 9 - Deploy do frontend no Heroku
+#### 8 - Deploy do frontend no Heroku
 **IMPORTANTE**: Assim como no backend, a variável de ambiente GITHUB_USER deverá ser criada com o seu usuário do github.
 
 Faça o deploy do front-end:
@@ -420,7 +420,7 @@ O que será testado:
 
 ### Bônus
 
-### 10 - Multi-ambientes e Development Mode.
+### 9 - Multi-ambientes e Development Mode.
 
 Utilize a estratégia de multi-ambientes no frontend. Para isso:
 
