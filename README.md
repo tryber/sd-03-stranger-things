@@ -303,7 +303,7 @@ Altere o backend para utilizar variáveis de ambiente para contrololar os seguin
 Adicione o módulo PM2 à API.
 
 O que será testado:
- - Se o modulo pm2 esta instalado nas dependências de desenvolvimento.
+ - Se o modulo pm2 esta instalado nas dependências.
 
 #### 3 - Ecosystem
 
