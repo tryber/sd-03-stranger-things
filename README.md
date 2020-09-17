@@ -40,7 +40,7 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
     - `git checkout -b joaozinho-sd-03-stranger-things-backend`
     - `git checkout -b joaozinho-sd-03-stranger-things-frontend`
 
-5. Adicione as mudanças ao _stage_ do Git e faça um `commit`
+6. Adicione as mudanças ao _stage_ do Git e faça um `commit`
   * Verifique que as mudanças ainda não estão no _stage_
     * Exemplo: `git status` (deve aparecer listada a pasta _joaozinho_ em vermelho)
   * Adicione o novo arquivo ao _stage_ do Git
@@ -52,13 +52,13 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
         * `git commit -m 'iniciando o projeto x'` (fazendo o primeiro commit)
         * `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
 
-6. Adicione a sua branch com o novo `commit` ao repositório remoto
+7. Adicione a sua branch com o novo `commit` ao repositório remoto
 
   - Usando o exemplo anterior:
     - `git push -u origin joaozinho-sd-03-stranger-things-backend`
     - `git push -u origin joaozinho-sd-03-stranger-things-frontend`
 
-7. Crie um novo `Pull Request` _(PR)_
+8. Crie um novo `Pull Request` _(PR)_
   * Vá até a página de _Pull Requests_ dos repositórios no GitHub ([front-end](https://github.com/tryber/sd-03-stranger-things-frontend/pulls) e [back-end](https://github.com/tryber/sd-03-stranger-things-backend/pulls))
   * Clique no botão verde _"New pull request"_
   * Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
