@@ -24,11 +24,11 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 
 - `npm install`
 
-3. Para rodar localmentes os projetos, execute o script de start do `package.json`.
+4. Para rodar localmentes os projetos, execute o script de start do `package.json`.
 
 - `npm start`
 
-4. Crie uma branch a partir da branch `master` para cada um dos repositórios.
+5. Crie uma branch a partir da branch `master` para cada um dos repositórios.
 
 - Verifique que você está na branch `master`
   - Exemplo: `git branch`
@@ -40,12 +40,7 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
     - `git checkout -b joaozinho-sd-03-stranger-things-backend`
     - `git checkout -b joaozinho-sd-03-stranger-things-frontend`
 
-1. Clone o repositório
-  * `git clone https://github.com/tryber/sd-03-stranger-things.git`.
-  * Entre na pasta do repositório que você acabou de clonar:
-    * `cd sd-03-stranger-things`
-
-4. Adicione as mudanças ao _stage_ do Git e faça um `commit`
+5. Adicione as mudanças ao _stage_ do Git e faça um `commit`
   * Verifique que as mudanças ainda não estão no _stage_
     * Exemplo: `git status` (deve aparecer listada a pasta _joaozinho_ em vermelho)
   * Adicione o novo arquivo ao _stage_ do Git
@@ -57,20 +52,20 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
         * `git commit -m 'iniciando o projeto x'` (fazendo o primeiro commit)
         * `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
 
-5. Adicione a sua branch com o novo `commit` ao repositório remoto
+6. Adicione a sua branch com o novo `commit` ao repositório remoto
 
   - Usando o exemplo anterior:
     - `git push -u origin joaozinho-sd-03-stranger-things-backend`
     - `git push -u origin joaozinho-sd-03-stranger-things-frontend`
 
-6. Crie um novo `Pull Request` _(PR)_
-  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-03-stranger-things/pulls)
+7. Crie um novo `Pull Request` _(PR)_
+  * Vá até a página de _Pull Requests_ dos repositórios no GitHub ([front-end](https://github.com/tryber/sd-03-stranger-things-frontend/pulls) e [back-end](https://github.com/tryber/sd-03-stranger-things-backend/pulls))
   * Clique no botão verde _"New pull request"_
   * Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
   * Clique no botão verde _"Create pull request"_
   * Adicione uma descrição para o _Pull Request_ e clique no botão verde _"Create pull request"_
   * **Não se preocupe em preencher mais nada por enquanto!**
-  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-03-stranger-things/pulls) e confira que o seu _Pull Request_ está criado
+  * Volte até a página de _Pull Requests_ do repositório e confira que o seu _Pull Request_ está criado
 
 ---
 
